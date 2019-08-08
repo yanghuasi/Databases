@@ -3,8 +3,8 @@ package com.ninetripods.mq.sqliteupdatedemo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.ninetripods.mq.sqliteupdatedemo.bean.Student;
-import com.ninetripods.mq.sqliteupdatedemo.db.DBDao;
+import com.ninetripods.mq.sqliteupdatedemo.sqlitedemo.Student;
+import com.ninetripods.mq.sqliteupdatedemo.sqlite.DBDao;
 
 
 public class MainActivity extends AppCompatActivity {

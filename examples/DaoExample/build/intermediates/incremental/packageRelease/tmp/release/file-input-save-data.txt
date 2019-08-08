@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Thu Aug 08 16:50:50 CST 2019
-0.baseType=DIRECTORY
-0.base=/Users/howfor/Downloads/Databases/examples/DaoExample/build/intermediates/dex/release/mergeDexRelease/out
-0.path=classes.dex
-0.set=DEX
-count=1

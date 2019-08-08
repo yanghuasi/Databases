@@ -4,7 +4,7 @@
             "outputFile": "/Users/howfor/Downloads/Databases/examples/DaoExample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "/Users/howfor/.gradle/caches/transforms-2/files-2.1/a7a14ec48d91ce4eb9a86bfce1e47fce/res/values-v17/values-v17.xml",
+                    "source": "/Users/howfor/.gradle/caches/transforms-2/files-2.1/c56a741fcbe05047eadee0ea12bda87f/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

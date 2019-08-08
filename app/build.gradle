@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
 
 android {
     compileSdkVersion 26
@@ -17,14 +18,26 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    // greendao 配置
+    greendao {
+        schemaVersion 1                                         // 数据库版本号
+        daoPackage      'com.ninetripods.mq.sqliteupdatedemo.greendao'    // greenDao 自动生成的代码保存的包名
+        targetGenDir    'src/main/java'                         // 自动生成的代码存储的路径，默认是 build/generated/source/greendao.
+    }
+
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:26.+'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:26.+'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    // GreenDao  数据库ORM
+    implementation 'org.greenrobot:greendao:3.2.2'
+    // GreenDao 生成dao和model的generator的项目 发布时可以去掉
+    implementation 'org.greenrobot:greendao-generator:3.2.2'
+
 }
