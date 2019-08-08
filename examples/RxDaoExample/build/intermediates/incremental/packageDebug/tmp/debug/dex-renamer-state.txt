@@ -1,0 +1,4 @@
+#Thu Aug 08 16:26:50 CST 2019
+base.0=/Users/howfor/Downloads/greenDAO/examples/RxDaoExample/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
